@@ -1,7 +1,7 @@
 export enum GamePiece {
     UNSET = "",
     X = "X",
-    O = "O"
+    O = "O",
 }
 
 export enum Location {
@@ -13,7 +13,7 @@ export enum Location {
     CENTRE_RIGHT = "CENTRE_RIGHT",
     BOTTOM_LEFT = "BOTTOM_LEFT",
     BOTTOM_MIDDLE = "BOTTOM_MIDDLE",
-    BOTTOM_RIGHT = "BOTTOM_RIGHT"
+    BOTTOM_RIGHT = "BOTTOM_RIGHT",
 }
 
-export type GridBoard = Record<Location, GamePiece>
+export type GridBoard = Record<Location, GamePiece>;
